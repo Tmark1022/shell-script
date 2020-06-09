@@ -14,8 +14,7 @@ hello() {
 	fi
 }
 
-while hello $yn
-do	
+while hello $yn ;do	
 	read -p "choice : " yn
 done
 

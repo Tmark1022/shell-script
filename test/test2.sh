@@ -17,3 +17,9 @@ read -p "first number : " num1
 read -p "second number : " num2
 declare -i total=$num1*$num2
 echo -e "total is $total\n"
+
+echo -e "third method"
+read -p "first number : " num1
+read -p "second number : " num2
+declare -i total=$[$num1*$num2]
+echo -e "total is $total\n"

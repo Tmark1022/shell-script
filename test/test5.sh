@@ -13,7 +13,7 @@ if [ "${#}" -lt 2 ]; then
 	exit 127
 fi
 
-shift	# change parameters position , default 1
+#shift	# change parameters position , default 1
 echo "file name : $0"
 echo "argument cnt : $#"
 echo "first argument is : $1"

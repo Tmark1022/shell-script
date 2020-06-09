@@ -10,7 +10,9 @@ sum=0
 num=10
 for((i=0;i<=$num;i++))
 do
+	set -x 
 	sum=$(($sum+$i))
+	set +x
 done
 
 echo -e "sum is $sum"
